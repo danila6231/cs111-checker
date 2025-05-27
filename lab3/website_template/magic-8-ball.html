@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Magic 8 Ball</h1>
+      <input type="text" id="question" placeholder="Ask a question...">
+      <div class="ball" id="ball" onclick="shakeBall()">
+        <div class="answer-window" id="answer">8</div>
+      </div>
+      <div class="button-group">
+        <button id="shake-button" onclick="shakeBall()">Shake</button>
+        <button id="reset-button" onclick="resetBall()">Reset</button>
+      </div>
+      <div id="question-display" class="question-display"></div>
+      <div id="history-container" class="history-container">
+        <h2>Question History <button id="clear-history-button" onclick="clearHistory()">Clear History</button></h2>
+        <ul id="question-history" class="question-history"></ul>
+      </div>
+    </div>
+
+  <script src="magic-8-ball.js"></script>
+</body>
+</html>
