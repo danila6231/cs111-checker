@@ -1,0 +1,40 @@
+{
+  "treatnate": {
+    "validateDate() Function": {
+      "points": 0,
+      "max_points": 6.0,
+      "comments": [
+        "Failed to validate correct date formats",
+        "Failed to properly check for single forward slash",
+        "Failed to verify exactly 2 digits in each part",
+        "Failed to validate numeric characters",
+        "Failed to properly validate month range",
+        "Failed to properly validate days for specific months"
+      ]
+    },
+    "validateTime() Function": {
+      "points": 0,
+      "max_points": 6.0,
+      "comments": [
+        "Failed to validate correct time formats",
+        "Failed to properly check for single colon",
+        "Failed to verify exactly 2 digits in each part",
+        "Failed to validate numeric characters",
+        "Failed to properly validate hours range (0-23)",
+        "Failed to properly validate minutes range (0-59)"
+      ]
+    },
+    "calculatePriority() Function": {
+      "points": 5.0,
+      "max_points": 8.0,
+      "comments": [
+        "Failed to handle edge cases properly"
+      ]
+    },
+    "total": {
+      "points": 5.0,
+      "max_points": 20.0,
+      "percentage": 25.0
+    }
+  }
+}
